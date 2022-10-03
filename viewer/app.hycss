@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  flex: 1;
+  background-color: #FFFFFF;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  position: relative;
+  top: 0px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.title {
+  font-weight: 600;
+  position: relative;
+  color: rgb(201, 48, 201);
+  font-size:18;
+  text-align:center;
+  margin:5px 5px;
+}
+
+.msg {
+  position: relative;
+  font-size:15;
+  text-align: center;
+  margin:0px 30px;
+  font-weight:bold;
+  color: black;
+}
+
+.groupNum {
+  margin: 10px auto;
+  position: relative;
+  font-size:15;
+  text-align: center;
+  font-weight:bold;
+  color: red;
+  /* text-shadow: 1px 0 1px #8B4513; */
+}
+
+.senderButton{
+  margin: 10px auto;
+  width: 320px;
+  height: 80px;
+  border-radius: 30px;
+  background-color: rgb(241, 187, 36);
+}
+
+.titleView {
+  width:100%;
+  height:100px;
+  margin:25px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.titleText {
+  font-size:28;
+  text-align:justify;
+  font-weight: bold;
+  color: brown;
+}
+.baseText {
+  font-size:15;
+  text-align:center;
+  font-weight:bold;
+  color: black;
+}
+.btnText {
+  font-size:13;
+  text-align:center;
+  font-weight:bold;
+  color: black;
+}
+
+.backgroundImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding:0;
+}
+
+.imageView{
+  justify-content: center;
+  align-items: center;
+}
+
+.picImageView{
+  justify-content: center;
+  align-items: center;
+}
+
+.picImage{
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+
+.introImage{
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin:10px;
+}
+/* .tab{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+} */
+
+.baseText {
+    /* font-family:'Arial,Microsoft YaHei,SimHei,SimSun,sans-serif'; */
+    font-size:18;
+    text-align:center;
+    font-weight:bold;
+    color: black;
+}
+
+.giftMsg {
+    margin: 30px auto;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    border: gray solid 3px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.written_log {
+    margin: 30px auto;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    border: gray solid 3px;
+    border-radius: 20px;
+    flexDirection: row;
+    justifyContent: flex-start;
+    flexWrap: wrap;
+}
+
+.written_log_scroll {
+    width: 30px;
+   flexDirection: row;
+    justifyContent: flex-start;
+    flexWrap: wrap;
+}
+
+.baseText {
+    fontFamily: Cochin;
+  }
